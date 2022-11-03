@@ -1,0 +1,16 @@
+git init // para iniciar un proyecto
+git config --global user.name "waldemarrosales" // configuramos entorno local con nombre de pila del github
+git config --global user.email "waldemar163@gmail.com" // configuramos la cuenta de correo para github
+git add . // guardamos los archivos en la memoria de git para luego hacer un commit
+git status // para ver si hay archivos para subir
+git commit -m "Cracion de la carpeta semana1" // crea un punto de cambio para guardarlo
+git branch -m main //Cambiar la ramas master a main *ya no se usa master* 
+
+luego creamos repositorio nuevo en github con un nombre que le ponemos a nuestra eleccion para vincular nuestra cuenta local con nuestro repositorio en la nube.
+
+git remote add origin https://github.com/waldemarrosales/codigo-semana1.git //vinculamos cuenta local con nuestro repositorio en github.
+git push origin main //sube los cambios que estaba en la pc github, la primera vez te pide logeo.
+
+
+
+
